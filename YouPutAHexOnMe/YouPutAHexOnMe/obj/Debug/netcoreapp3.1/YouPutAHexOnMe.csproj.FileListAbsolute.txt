@@ -1,0 +1,11 @@
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\bin\Debug\netcoreapp3.1\YouPutAHexOnMe.exe
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\bin\Debug\netcoreapp3.1\YouPutAHexOnMe.deps.json
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\bin\Debug\netcoreapp3.1\YouPutAHexOnMe.runtimeconfig.json
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\bin\Debug\netcoreapp3.1\YouPutAHexOnMe.runtimeconfig.dev.json
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\bin\Debug\netcoreapp3.1\YouPutAHexOnMe.dll
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\bin\Debug\netcoreapp3.1\YouPutAHexOnMe.pdb
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\obj\Debug\netcoreapp3.1\YouPutAHexOnMe.csprojAssemblyReference.cache
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\obj\Debug\netcoreapp3.1\YouPutAHexOnMe.AssemblyInfoInputs.cache
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\obj\Debug\netcoreapp3.1\YouPutAHexOnMe.AssemblyInfo.cs
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\obj\Debug\netcoreapp3.1\YouPutAHexOnMe.dll
+C:\ScratchProjects\CodingChallenges\YouPutAHexOnMe\YouPutAHexOnMe\obj\Debug\netcoreapp3.1\YouPutAHexOnMe.pdb
