@@ -1,6 +1,6 @@
 ﻿namespace Clockwork_Drivers_Part1
 {
-    interface ILedClockDriver
+    public interface ILedClockDriver
     {
         ///<summary>
         /// position must be between 0 and 59 otherwise an
