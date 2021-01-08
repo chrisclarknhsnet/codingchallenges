@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clockwork_Part_1", "Clockwork_Part_1\Clockwork_Part_1.csproj", "{B55B32FD-5206-428B-A34D-D3CC7782ED34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{A7C060C4-A565-451C-BB48-71252110F83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D35B2AD9-B989-4085-8BBE-3DDCE701720A}"
+	ProjectSection(SolutionItems) = preProject
+		Clockwork_part_i.docx = Clockwork_part_i.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B55B32FD-5206-428B-A34D-D3CC7782ED34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55B32FD-5206-428B-A34D-D3CC7782ED34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55B32FD-5206-428B-A34D-D3CC7782ED34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55B32FD-5206-428B-A34D-D3CC7782ED34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C060C4-A565-451C-BB48-71252110F83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C060C4-A565-451C-BB48-71252110F83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C060C4-A565-451C-BB48-71252110F83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C060C4-A565-451C-BB48-71252110F83A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {406E35A6-E7E2-444E-8858-9CE972F09DCC}
+	EndGlobalSection
+EndGlobal
