@@ -25,7 +25,7 @@ The challenges have been written to be at a similar level of complexity to the e
 * String manipulation
 * Concerting characters to ASCII valiues
 
-### Like clockwork (part 1)
+### Clockwork (part 1)
 
 **The challenge:** To implement a function to derive the correct values to pass to a driver interface for displaying the current time on an Led clock.
 
