@@ -16,9 +16,9 @@ The challenges have been written to be at a similar level of complexity to the e
 
 ### You put a hex on me
 
-__ The challenge: __ To write a function to convert an input 2 character string from hexadecimal to an integer value
+**The challenge:** To write a function to convert an input 2 character string from hexadecimal to an integer value
 
--- Areas for test/understanding: __ 
+**Areas for test/understanding:**
 * C# language skills
 * Unit testing
 * Knowledge of Hexadecimal
@@ -27,9 +27,9 @@ __ The challenge: __ To write a function to convert an input 2 character string 
 
 ### Like clockwork (part 1)
 
-__ The challenge: __ To implement a function to derive the correct values to pass to a driver interface for displaying the current time on an Led clock.
+**The challenge:** To implement a function to derive the correct values to pass to a driver interface for displaying the current time on an Led clock.
 
--- Areas for test/understanding: __ 
+**Areas for test/understanding:**
 * Use of interfaces
 * Dependency Injection
 * Unit Testing
@@ -38,9 +38,9 @@ __ The challenge: __ To implement a function to derive the correct values to pas
 
 ### Summat needs checking
 
-__ The challenge: __ Write a function to check the format and validity of s imple checksum for an input Helpdesk reference
+**The challenge:** Write a function to check the format and validity of s imple checksum for an input Helpdesk reference
 
--- Areas for test/understanding: __ 
+**Areas for test/understanding:**
 * C# language skills
 * Regular expressions
 * Unit testing
