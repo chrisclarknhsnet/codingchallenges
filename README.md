@@ -47,6 +47,17 @@ The challenges have been written to be at a similar level of complexity to the e
 * LINQ (optional use in solution)
 * ASCII values for characters
 
+### Look before you leap
+
+**The challenge:** Write a function to check if an input year is a leap year
+
+**Areas for test/understanding:**
+* C# language skills
+* Analysis skills
+* Coding efficient algorithms
+* Unit testing
+* Confidence building
+
 
 
 
