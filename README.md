@@ -58,6 +58,17 @@ The challenges have been written to be at a similar level of complexity to the e
 * Unit testing
 * Confidence building
 
+### You feeling lucky punk
+
+**The challenge:** Write a function to create a "Lucky dip" of lottery numbers.  Design in such a way can be used for other lotteries with different number sets, number of choices to make etc.
+
+**Areas for test/understanding:**
+* C# language skills
+* Use of mathematical random functions
+* USe of collections
+* Design - Open/Closed principle, Template method pattern etc.
+* Deliberately quite easy so can focus on the design aspects
+
 
 
 
