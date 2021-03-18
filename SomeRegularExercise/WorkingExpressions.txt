@@ -1,0 +1,6 @@
+        public const string c1_ALPHANUMERIC_ONLY = @"^\w+$";
+        public const string c2_P_FOLLOWED_BY_9_DIGITS = @"^P\d{9}$";
+        public const string c3_VALID_HEXADECIMAL = @"^([A-F0-9][A-F0-9])+$";
+        public const string c4_VALID_GUID = @"^[A-F0-9]{8}-([A-F0-9]{4}-){3}[A-F0-9]{12}$";
+        public const string c5_START_BEGIN_END_TAGS = @"^(START:|BEGIN:)[\s\S]+:END$";
+        public const string c6_CAPTURING_GROUP = @"^(START:|BEGIN:)(?<Payload>[\s\S]+):END$";
