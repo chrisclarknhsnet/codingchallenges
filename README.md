@@ -69,6 +69,15 @@ The challenges have been written to be at a similar level of complexity to the e
 * Design - Open/Closed principle, Template method pattern etc.
 * Deliberately quite easy so can focus on the design aspects
 
+### Some regular exercise
 
+**The challenge:** To write a series of regular expressions to test for various patterns.  Unit tests written to test any expressions authored in the Expressions.cs class
 
+**Areas for test/understanding:**
+* Regular expressions
+* Captured groups
+* C# Regular Expression and Match class
+
+**NOTE:**
+Would suggest using the site www.regex.com as a useful resource/authoring area
 
