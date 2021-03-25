@@ -69,6 +69,16 @@ The challenges have been written to be at a similar level of complexity to the e
 * Design - Open/Closed principle, Template method pattern etc.
 * Deliberately quite easy so can focus on the design aspects
 
+### Mustang Sally
+
+**The challenge:** Write some .NET code to interrogate a set of sample JSON data to see if people called Sally really do drive Mustangs
+
+**Areas for test/understanding:**
+* C# language skills
+* IO / Streams
+* JSON / Newtonsoft
+* LINQ
+
 ### Some regular exercise
 
 **The challenge:** To write a series of regular expressions to test for various patterns.  Unit tests written to test any expressions authored in the Expressions.cs class
