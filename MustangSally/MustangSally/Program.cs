@@ -12,42 +12,20 @@ namespace Mustang_Sally
 
         static void Main(string[] args)
         {
-            var carDrivers = loadJson();
-            var noofMustangSallys = howManySallyMustangs(carDrivers);
-            Console.WriteLine($"There are {noofMustangSallys} Mustang Sallys");
+            var loader = new JsonLoader<CarDriver>();
+            var querier = new CarDriverQueries();
+            var checker = new MustangSallyChecker(cMOCK_DATA_FILE, loader, querier);
             
-            var sallyNonMustangs = areThereAnySallysWhoDontDriveMustangs(carDrivers)
+            var noofMustangSallys = checker.Count_Of_Mustang_Sallys();
+            Console.WriteLine($"There are {noofMustangSallys} Mustang Sallys");
+
+            var sallyNonMustangs = checker.Are_Sallys_Without_Mustang()
                 ? "are" : "are not";
 
             Console.WriteLine($"There {sallyNonMustangs} Sallys who do not drive a Mustang");
             Console.ReadLine();
         }
 
-        // How many people named Sally drive a Mustang car?
-        private static int howManySallyMustangs(IList<CarDriver> carDrivers)
-        {
-            return carDrivers.Count(
-                cd =>
-                cd.first_name == "Sally" &&
-                cd.car_model == "Mustang");
-        }
-
-        private static bool areThereAnySallysWhoDontDriveMustangs(IList<CarDriver> carDrivers)
-        {
-            return carDrivers.Any(
-                cd =>
-                cd.first_name == "Sally" &&
-                cd.car_model != "Mustang");
-        }
-
-        private static IList<CarDriver> loadJson()
-        {
-            using (var r = new StreamReader(cMOCK_DATA_FILE))
-            {
-                string json = r.ReadToEnd();
-                var items = JsonConvert.DeserializeObject<List<CarDriver>>(json);
-                return items;
-            }
-        }
+        
     }
 }

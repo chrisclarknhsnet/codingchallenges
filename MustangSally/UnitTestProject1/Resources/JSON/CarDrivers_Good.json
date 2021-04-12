@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "first_name": "Bradan",
+    "last_name": "Moniker",
+    "gender": "M",
+    "age": 17,
+    "car_model": "Gallardo"
+  },
+  {
+    "id": 2,
+    "first_name": "Emmett",
+    "last_name": "Playfair",
+    "gender": "M",
+    "age": 57,
+    "car_model": "Ram Van 1500"
+  }
+]
