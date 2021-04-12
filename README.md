@@ -78,6 +78,8 @@ The challenges have been written to be at a similar level of complexity to the e
 * IO / Streams
 * JSON / Newtonsoft
 * LINQ
+* Unit tests
+* Mocking
 
 ### Some regular exercise
 
