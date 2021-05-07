@@ -81,6 +81,16 @@ The challenges have been written to be at a similar level of complexity to the e
 * Unit tests
 * Mocking
 
+### I'm a People Person
+
+**The challenge:** Use LINQ to maniuplate and extract person information from a contacts JSON file
+
+**Areas for test/understanding:**
+* C# language skills
+* LINQ
+* JSON / Newtonsoft
+
+
 ### Some regular exercise
 
 **The challenge:** To write a series of regular expressions to test for various patterns.  Unit tests written to test any expressions authored in the Expressions.cs class
