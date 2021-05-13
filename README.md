@@ -90,6 +90,14 @@ The challenges have been written to be at a similar level of complexity to the e
 * LINQ
 * JSON / Newtonsoft
 
+### Call me Hendrix
+**The challenge:** Use LINQ to manipulate and interrogate feedback provided by customers via a CSV file
+
+** Area for test/understanding:**
+* C# language skills
+* LINQ
+* CSV/CSVHelper
+* System.IO
 
 ### Some regular exercise
 
