@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitMeDataOneMoreTime", "HitMeDataOneMoreTime\HitMeDataOneMoreTime.csproj", "{D5407D91-B58D-41F5-BA67-AF49BB413733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HitMeDataOneMoreTime", "HitMeDataOneMoreTime\HitMeDataOneMoreTime.csproj", "{D5407D91-B58D-41F5-BA67-AF49BB413733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{6C243098-57E1-426C-A1C2-FABF33DAD917}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D5407D91-B58D-41F5-BA67-AF49BB413733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5407D91-B58D-41F5-BA67-AF49BB413733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5407D91-B58D-41F5-BA67-AF49BB413733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C243098-57E1-426C-A1C2-FABF33DAD917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C243098-57E1-426C-A1C2-FABF33DAD917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C243098-57E1-426C-A1C2-FABF33DAD917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C243098-57E1-426C-A1C2-FABF33DAD917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
