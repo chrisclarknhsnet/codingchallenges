@@ -99,6 +99,18 @@ The challenges have been written to be at a similar level of complexity to the e
 * CSV/CSVHelper
 * System.IO
 
+### Hit me data one more time
+**The challenge:** Use LINQ to answer questions on US hit singles from the year 2000
+
+** Area for test/understanding:**
+* C# language skills
+* Intepreting requirements/understanding
+* LINQ
+* Use of ine-line functions within LINQ
+* CSV/CSVHelper
+* System.IO
+
+
 ### Some regular exercise
 
 **The challenge:** To write a series of regular expressions to test for various patterns.  Unit tests written to test any expressions authored in the Expressions.cs class
