@@ -2,6 +2,8 @@
 {
     public interface IRepository
     {
-        
+        string DataFile { get; set; }
+
+        int GetCount_OfDomesticCrimes();
     }
 }

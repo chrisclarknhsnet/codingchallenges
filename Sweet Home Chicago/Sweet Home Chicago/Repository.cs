@@ -1,6 +1,7 @@
 ﻿using Sweet_Home_Chicago.POCO;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Sweet_Home_Chicago
 {
@@ -46,6 +47,11 @@ namespace Sweet_Home_Chicago
 
                 return _data;
             }
+        }
+
+        public int GetCount_OfDomesticCrimes()
+        {
+            return CrimeData.Count(c => c.Domestic);
         }
     }
 }

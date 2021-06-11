@@ -14,7 +14,7 @@ namespace Sweet_Home_Chicago
         public IList<CrimeSummary> LoadData(string filename)
         {
             using (var reader = new StreamReader(filename))
-            using (var csv = new CsvReader(reader, CultureInfo.CurrentCulture))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 return csv.GetRecords<CrimeSummary>().ToList();
             }

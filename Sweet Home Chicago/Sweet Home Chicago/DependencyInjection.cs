@@ -5,7 +5,7 @@ namespace Sweet_Home_Chicago
 {
     public class DependencyInjection
     {
-        public static IServiceProvider Configure()
+        public static ServiceProvider Configure()
         {
             //setup our DI
             return new ServiceCollection()
