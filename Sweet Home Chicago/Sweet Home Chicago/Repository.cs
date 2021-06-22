@@ -53,5 +53,40 @@ namespace Sweet_Home_Chicago
         {
             return CrimeData.Count(c => c.Domestic);
         }
+
+        public int GetCount_OfStreetHomicides()
+        {
+            return CrimeData
+                .Count(c => c.LocationDescription == "STREET" && c.PrimaryType == "HOMICIDE" );
+        }
+
+        public string Get_MostCommonTypeOfCrime()
+        {
+            return CrimeData
+                .GroupBy(g => g.PrimaryType)
+                .OrderByDescending(o => o.Count())
+                .First()
+                .Key;
+        }
+
+        public IList<int> Find_SafestDistricts(int noofdistricts)
+        {
+            return CrimeData
+                .Where(c => !c.Domestic)
+                .GroupBy(g => g.District)
+                .OrderByDescending(o => o.Count())
+                .Take(noofdistricts)
+                .Select(s => s.Key)
+                .ToList();
+        }
+
+        public double Get_PercentageOfStreetAssaults_ByWeekday(DayOfWeek weekday)
+        {
+            return 0;
+            //return CrimeData
+            //    .Where(c => c.LocationDescription == "STREET" && c.PrimaryType == "ASSAULT")
+            //    .GroupBy(g => g.Date.DayOfWeek)
+            //    .Select(s => new { DayOfWeek = s.Key, Percentage = s.Count() / s.Sum(sum => sum.Count()))
+        }
     }
 }
